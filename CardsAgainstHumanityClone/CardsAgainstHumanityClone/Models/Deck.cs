@@ -20,7 +20,6 @@ namespace CardsAgainstHumanityClone.Models
         // Represents all cards that are a part of the discard pile (if applicable)
         public BlackCard[] DiscardedCards { get; set; }
         
-        // Will return an array of BlackCards equal to the amount specified.
         /// <summary>
         /// Returns an array of BlackCard equal to the amount specified. Cards returned will be removed from the active deck.
         /// </summary>
@@ -49,6 +48,11 @@ namespace CardsAgainstHumanityClone.Models
             return result;
         }
 
+        /// <summary>
+        /// Replaces the array of cards provided into either the main deck or discarded deck depending on what is specified.
+        /// </summary>
+        /// <param name="type">The type of replacement to use. Discard will place cards into the Discard deck, while the other types place into the main deck.</param>
+        /// <param name="returnedCards">The array of cards being returned.</param>
         public void ReplaceCards(eReplaceType type, BlackCard[] returnedCards)
         {
             int length;
@@ -79,23 +83,56 @@ namespace CardsAgainstHumanityClone.Models
                     DeckCards = tempDeck;
                     break;
                 case eReplaceType.Bottom:
+                    foreach (BlackCard card in returnedCards)
+                    {
+                        DeckCards.Append(card);
+                    }
                     break;
                 case eReplaceType.Shuffle:
+                    foreach(BlackCard card in returnedCards)
+                    {
+                        DeckCards.Append(card);
+                    }
+                    ShuffleCards();
                     break;
                 default:
                     break;
             }
         }
 
+        /// <summary>
+        /// Shuffles the main deck.
+        /// </summary>
+        /// <param name="withDiscard">Shuffle the deck after replacing all discarded cards. Good for if there are not enough cards to draw from.</param>
         public void ShuffleCards(bool withDiscard = false)
         {
 
         }
 
-        // If shuffle is false, will place 
+        /// <summary>
+        /// Replaces the discarded cards back into the main deck.
+        /// </summary>
+        /// <param name="replaceType">The type of replacement for the discarded cards to be re entered into the main deck.</param>
         public void ReplaceDiscardedCards(eReplaceType replaceType = eReplaceType.Shuffle)
         {
-
+            switch (replaceType)
+            {
+                case eReplaceType.Discard:
+                    ReplaceCards(eReplaceType.Discard, DiscardedCards);
+                    break;
+                case eReplaceType.Top:
+                    ReplaceCards(eReplaceType.Top, DiscardedCards);
+                    break;
+                case eReplaceType.Bottom:
+                    ReplaceCards(eReplaceType.Bottom, DiscardedCards);
+                    break;
+                case eReplaceType.Shuffle:
+                    ReplaceCards(eReplaceType.Shuffle, DiscardedCards);
+                    break;
+                default:
+                    break;
+            }
+            DiscardedCards = new BlackCard[0];
         }
     }
     public class WhiteDeck
