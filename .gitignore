@@ -355,3 +355,6 @@ CardsAgainstHumanityClone/.vs/CardsAgainstHumanityClone/v16/.suo
 CardsAgainstHumanityClone/.vs/CardsAgainstHumanityClone/DesignTimeBuild/.dtbcache
 CardsAgainstHumanityClone/.vs/CardsAgainstHumanityClone/v16/Server/sqlite3/storage.ide
 *.ide
+*.user
+*.csproj
+*.pdb
