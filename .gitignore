@@ -351,16 +351,3 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
-*.json
-CardsAgainstHumanityClone/CardsAgainstHumanityClone/obj/project.assets.json
-CardsAgainstHumanityClone/CardsAgainstHumanityClone/obj/Debug/netcoreapp3.0/CardsAgainstHumanityClone.csprojAssemblyReference.cache
-CardsAgainstHumanityClone/CardsAgainstHumanityClone/obj/Debug/netcoreapp3.0/CardsAgainstHumanityClone.assets.cache
-CardsAgainstHumanityClone/CardsAgainstHumanityClone/obj/CardsAgainstHumanityClone.csproj.nuget.g.props
-CardsAgainstHumanityClone/CardsAgainstHumanityClone/obj/CardsAgainstHumanityClone.csproj.nuget.dgspec.json
-CardsAgainstHumanityClone/CardsAgainstHumanityClone/obj/CardsAgainstHumanityClone.csproj.nuget.cache
-*.json
-*.props
-*.cache
-*.json
-*.props
-*.json
