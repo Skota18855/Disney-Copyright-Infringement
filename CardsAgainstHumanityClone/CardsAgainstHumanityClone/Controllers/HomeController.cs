@@ -23,6 +23,17 @@ namespace CardsAgainstHumanityClone.Controllers
             return View();
         }
 
+        public IActionResult LoginSlashSignup()
+        {
+            return View();
+        }
+
+        //[HttpPost]
+        //public IActionResult LoginSlashSignup()
+        //{
+        //    return NotImplementedException;
+        //}
+
         public IActionResult Privacy()
         {
             return View();

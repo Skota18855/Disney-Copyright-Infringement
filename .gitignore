@@ -351,4 +351,11 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+CardsAgainstHumanityClone/.vs/CardsAgainstHumanityClone/v16/.suo
+CardsAgainstHumanityClone/.vs/CardsAgainstHumanityClone/DesignTimeBuild/.dtbcache
+CardsAgainstHumanityClone/.vs/CardsAgainstHumanityClone/v16/Server/sqlite3/storage.ide
 *.ide
+*.user
+*.csproj
+*.pdb
+

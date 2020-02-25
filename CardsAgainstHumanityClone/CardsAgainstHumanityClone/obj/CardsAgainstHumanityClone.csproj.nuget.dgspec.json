@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Neumont\\5th Web-Based Software Projects\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone.csproj": {}
+    "C:\\Users\\Zane\\Documents\\GitHub\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone.csproj": {}
   },
   "projects": {
-    "C:\\Neumont\\5th Web-Based Software Projects\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone.csproj": {
+    "C:\\Users\\Zane\\Documents\\GitHub\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Neumont\\5th Web-Based Software Projects\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone.csproj",
+        "projectUniqueName": "C:\\Users\\Zane\\Documents\\GitHub\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone.csproj",
         "projectName": "CardsAgainstHumanityClone",
-        "projectPath": "C:\\Neumont\\5th Web-Based Software Projects\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone.csproj",
-        "packagesPath": "C:\\Users\\Dakota\\.nuget\\packages\\",
-        "outputPath": "C:\\Neumont\\5th Web-Based Software Projects\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\obj\\",
+        "projectPath": "C:\\Users\\Zane\\Documents\\GitHub\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone.csproj",
+        "packagesPath": "C:\\Users\\Zane\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zane\\Documents\\GitHub\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dakota\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Zane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -42,6 +40,16 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
