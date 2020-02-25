@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zane\\Documents\\GitHub\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone.csproj": {}
+    "C:\\GitHub\\CAH\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zane\\Documents\\GitHub\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone.csproj": {
+    "C:\\GitHub\\CAH\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zane\\Documents\\GitHub\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone.csproj",
+        "projectUniqueName": "C:\\GitHub\\CAH\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone.csproj",
         "projectName": "CardsAgainstHumanityClone",
-        "projectPath": "C:\\Users\\Zane\\Documents\\GitHub\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone.csproj",
-        "packagesPath": "C:\\Users\\Zane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zane\\Documents\\GitHub\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\obj\\",
+        "projectPath": "C:\\GitHub\\CAH\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone.csproj",
+        "packagesPath": "C:\\Users\\Joshua Favre\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\CAH\\Disney-Copyright-Infringement\\CardsAgainstHumanityClone\\CardsAgainstHumanityClone\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Zane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Joshua Favre\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +25,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
@@ -60,24 +61,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.0.1, 3.0.1]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.0.2, 3.0.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.0.0, 3.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -86,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
